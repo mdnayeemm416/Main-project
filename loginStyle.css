@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url("slideImage-2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+}
+.login-logo{
+	height: 40px;
+	width: 200px;
+	margin:5px 85px;
+}
+
+.form-box
+{
+	width: 380px;
+	height: 440px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff8;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.4);
+}
+
+.button-box
+{
+	width: 220px;
+	margin: 10px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px rgba(0,0,0,.1);
+	border-radius: 30px;
+}
+
+.toggle-btn
+{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	position: relative;
+	border: 0;
+	outline: none;
+}
+
+#btn
+{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #71ca76, #269e21);
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.input-group
+{
+	top: 120px;
+	position: absolute;
+	width: 280px;
+	transition: 1s;
+	font-size: 13px;
+	color: #010101;
+}
+.inp {
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	justify-content: center;
+}
+.inp img{
+	width: 20px;
+	padding-right: 10px;
+}
+.input-field
+{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	outline: none;
+	background: transparent;
+	color: rgba(0,0,0);
+}
+::placeholder {
+	color: rgba(0, 0, 0, 0.7);
+	
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #71ca76, #269e21);
+	color: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.reg-btn {
+	display: none;
+}
+.check-box
+{
+	cursor: pointer;
+	margin: 30px 10px 30px 0;
+}
+
+
+#login
+{
+	left: 50px;
+}
+#register
+{
+	left: 450px;
+}
+	
+.admission{
+	color: black;
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+.admission-link{
+	text-decoration: none;
+	color:rgb(21, 146, 55);
+	margin-left: 10px;
+	
+}
